@@ -32,13 +32,13 @@ const UserList = () => {
         <table className="table is-striped is-fullwidth mt-2">
           <thead>
             <tr>
-              <th>Nama</th>
-              <th>NIM</th>
-              <th>Kelas</th>
-              <th>Semester</th>
-              <th>Jenis Kelamin</th>
-              <th>Alamat</th>
-              <th>Actions</th>
+              <th width="21%">Nama</th>
+              <th width="21%">NIM</th>
+              <th width="21%">Kelas</th>
+              <th width="21%">Semester</th>
+              <th width="41%">Jenis Kelamin</th>
+              <th width="21%">Alamat</th>
+              <th width="21%">Actions</th>
             </tr>
           </thead>
           <tbody>
