@@ -17,7 +17,7 @@ const EditUser = () => {
   }, []);
  
   const getUserById = async () => {
-    const response = await axios.get(`http://localhost:5000/users/${id}`);
+    const response = await axios.get(`https://iniuasbackend.herokuapp.com/users/${id}`);
     setNama(response.data.name);
     setNIM(response.data.NIM);
     setKelas(response.data.Kelas);
@@ -29,7 +29,7 @@ const EditUser = () => {
   const updateUser = async (e) => {
     e.preventDefault();
     try {
-      await axios.patch(`http://localhost:5000/users/${id}`, {
+      await axios.patch(`https://iniuasbackend.herokuapp.com/users/${id}`, {
         Nama,
         NIM,
         Kelas,
