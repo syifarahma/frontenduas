@@ -18,7 +18,7 @@ const EditUser = () => {
  
   const getUserById = async () => {
     const response = await axios.get(`https://iniuasbackend.herokuapp.com/users/${id}`);
-    setNama(response.data.name);
+    setNama(response.data.Nama);
     setNIM(response.data.NIM);
     setKelas(response.data.Kelas);
     setSemester(response.data.Semester);
